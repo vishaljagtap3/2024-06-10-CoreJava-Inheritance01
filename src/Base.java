@@ -1,6 +1,16 @@
 public class Base {
     private int b = 10;
 
+    /*public Base() {
+        System.out.println("Base()");
+        b = 10;
+    }*/
+
+    public Base(int b) {
+        System.out.println("Base(int)");
+        this.b = b;
+    }
+
     public int getB() {
         return b;
     }

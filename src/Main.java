@@ -1,17 +1,21 @@
 public class Main {
     public static void main(String[] args) {
 
+//        Derived d4 = new Derived();
+//        System.out.println();
+
+        Derived d3 = new Derived(11, 22);
+        //d3.display();
+
+
+        /*
         Derived d2 = new Derived();
         d2.setB(100);
         d2.setD(200);
         d2.displayB();
         d2.displayD();
         System.out.println();
-
-        d2.display();
-
-
-
+        d2.display();*/
 
         //b is separate for base class and derived class and so to objects
         /*Derived d1 = new Derived();
